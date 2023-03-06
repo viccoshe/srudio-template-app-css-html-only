@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: grey; 
+    
+    width: 400px;
+    height: 300px;
+  
+    padding: 100px;  
+}
+
+.btns-item {
+    background-image: url(../img/layer.png);
+    background-position: center center;
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: 300px;
+
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;      
+}
+
+
+.btns-blocks  {
+    cursor: pointer;
+    width: 96px;
+    height: 42px;
+    padding: 10px;
+    margin: 10px;   
+}
+
+.col-2 > div {   /*2 col*/
+    width: calc(50% - 40px); /*20 padding + 20 margin в item*/
+}
+
+
+.btns-blocks button {
+    width: 96px;
+    height: 42px;
+    font-size: 16px;  
+    border: 0; 
+}
+
+.btns-blocks:hover {
+    opacity: 0.6
+}
+
+.btns-blocks .disabled {
+    background-image: url(../img/disabled.png);
+}
+
+.btns-blocks .normal {
+    background-image: url(../img/normal.png);
+    color: #666666;
+}
+
+.btns-blocks .normal:active {
+    font-size: 13px;
+}
+
+.btns-blocks .normal:hover {
+    background-image: url(../img/hover.png);
+    color: #666666;
+}
+
+.btns-blocks .highlight {
+    background-image: url(../img/highlight.png);
+    color: #ffffff;
+}
+
+
+.btns-blocks .positive {
+    background-image: url(../img/positive.png);
+    color: #ffffff;
+
+}
+
+.btns-blocks .negative {
+    background-image: url(../img/negative.png);
+    color: #ffffff;
+}
+
+.btns-blocks .positive:active, 
+.btns-blocks .negative:active {
+    font-size: 13px;
+}
+
+
+    
+
+    
+    
+    
+    
+

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\5.3 виджет"
+		},
+		{
+			"path": "..\\..\\Delete Button"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Delete Button"
+	}
+}
